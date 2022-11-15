@@ -13,7 +13,7 @@ def lclick(x,y):
 
 time.sleep(3)
 print("now")
-i = 0
+i = 1
 while(not(keyboard.is_pressed('ctrl'))):
     if(keyboard.is_pressed('[')):
         i = 0
